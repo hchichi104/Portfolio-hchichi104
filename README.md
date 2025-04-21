@@ -5,7 +5,7 @@
 [배포된 프로젝트 링크](https://github.com/hchichi104/Portfolio-chichi)
 
 ## 설치할 라이브러리
-- npm install aos swiper
+- npm install swiper
 - npm install aos
 - npm install gh-pages --save-dev
 
