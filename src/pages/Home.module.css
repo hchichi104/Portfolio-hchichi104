@@ -1,0 +1,115 @@
+.bg_video video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: brightness(0.3);
+    object-fit: cover;
+}
+
+/* // bg_video */
+.title {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    z-index: 0;
+}
+
+.title h1 {
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: 128px;
+    font-weight: 500;
+}
+
+.title p {
+    font-family: "Pretendard Variable", sans-serif;
+    line-height: 25px;
+}
+
+.title a {
+    position: absolute;
+    display: inline-block;
+    bottom: 2rem;
+    animation: move 1s infinite alternate;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(10px) scale(1.2);
+    }
+}
+.viewvideo {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    background: #EDF1F2;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.viewvideo span {
+    position: absolute;
+    background: transparent;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    content: '';
+    border-style: solid;
+    border-width: 17px 0px 17px 28px;
+    border-color: transparent transparent transparent #54453F;
+    transition: all 0.5s ease-in-out;
+}
+.viewvideo:hover {
+    background: #54453F;
+}
+.viewvideo:hover span:first-of-type {
+    border-width: 1px 25px 6px 1px; 
+    border-color:  #EDF1F2;
+    transform: rotate(-90deg);
+    left: 10%;
+    top: 43%;
+    border-radius: 10px;
+}
+.viewvideo:hover span:last-of-type {
+    border-width: 1px 25px 6px 1px; 
+    border-color:  #EDF1F2;
+    transform: rotate(-90deg);
+    left: 40%;
+    top: 43%;
+    border-radius: 10px;
+}
+
+.hide {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-30px);
+    transition: all 0.7s ease-in-out;
+  }
+  .show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: all 0.7s ease-in-out;
+  }
+
+/* // home */
+
+.fakebg1 {
+    width: 100%;
+    height: 80px;
+    background: #EDF1F2;
+}
+

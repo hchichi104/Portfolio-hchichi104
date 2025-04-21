@@ -1,0 +1,16 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    background: #EDF1F2;
+}
+.inner {
+    width: 90rem;
+    /* 1440px */
+    margin: 0 auto;
+}
+
+
+
+
+
+/* /공통 */

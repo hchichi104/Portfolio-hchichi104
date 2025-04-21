@@ -1,0 +1,49 @@
+.design {
+  position: relative;
+  width: 100%;
+  background: #EDF1F2;
+  margin-top: 200px;
+  padding: 70px 0 40px;
+  scroll-margin-top: 270px;
+}
+
+.title {
+  position: absolute;
+  font-size: 70px;
+  color: white;
+  top: -22%;
+  left: 19.7%;
+}
+
+.swiper {
+  --swiper-theme-color: #54453F;
+}
+
+.swiperWrapper {
+  height: 500px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+
+.slide {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.odd {
+  width: 420px;
+}
+
+.even {
+  width: 720px;
+}
+
+.image {
+  height: 100%;
+}

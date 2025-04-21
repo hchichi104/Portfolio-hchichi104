@@ -1,0 +1,246 @@
+.Project {
+    position: relative;
+    width: 100%;
+    background: #EDF1F2;
+    margin-top: 200px;
+    padding-top: 1px;
+    padding-bottom: 70px;
+    scroll-margin-top: 270px;
+    
+}
+
+.Project h3 {
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    top: -3.8%;
+    left: 19.7%;
+}
+
+.contents {
+    width: 1440px;
+    height: 560px;
+    background: white;
+    margin-top: 70px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.mockup {
+    position: relative;
+    width: 620px;
+    height: 430px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.mobile {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 65%;
+    height: 257px;
+}
+
+.mobile_frame {
+    position: absolute;
+    width: 108px;
+    height: 234px;
+    top: 6px;
+    left: 51px;
+    border-radius: 14px;
+    overflow-y: auto;
+}
+
+.mobile_frame img {
+    width: 100%;
+}
+
+.mobile_frame::-webkit-scrollbar {
+    width: 0;
+}
+
+.web {
+    position: relative;
+    width: 495px;
+    height: 100%;
+}
+
+.web::before {
+    position: absolute;
+    content: '';
+    background-image: url(../../public/img/icon/img_scroll.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 90px;
+    top: 35%;
+    left: -30%;
+    opacity: 0.5;
+    animation: scrollAnimation 1.4s infinite alternate ease-in-out;
+}
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.web_frame {
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    width: 473px;
+    height: 267px;
+    overflow-y: auto;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+}
+
+.web_frame img {
+    width: 100%;
+}
+
+.web_frame::-webkit-scrollbar {
+    width: 4px;
+}
+
+.web_frame::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.web_frame::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+.info {
+    width: 620px;
+    height: 430px;
+}
+
+.contents h4 {
+    font-size: 70px;
+    color: #54453F;
+}
+
+.tag {
+    display: flex;
+    gap: 6px;
+}
+
+.tag:first-of-type {
+    margin-top: -10px;
+}
+
+.tag + .tag {
+    margin-top: -18px;
+}
+
+.info .tag p {
+    background: #EDF1F2;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 25px;
+    font-family: "Pretendard Variable", serif;
+}
+
+.info > p {
+    display: inline-block;
+    width: 100%;
+    height: 30%;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: "Pretendard Variable", serif;
+    font-size: 18px;
+    line-height: 30px;
+    word-break: keep-all;
+}
+
+.show {
+    width: 100%;
+    height: 28%;
+    gap: 10px;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: -10px;
+}
+
+.show a {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 147px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    background: transparent;
+    transition: all 0.6s;
+}
+
+/* 아이콘 버튼 커스텀 */
+.icon_chrome {
+    border: 1px solid rgb(26, 115, 232);
+}
+
+.icon_chrome:hover {
+    background-color: rgba(26, 115, 232, 0.7);
+    border: 1px solid #fff;
+}
+
+.icon_git {
+    border: 1px solid #404751;
+}
+
+.icon_git:hover {
+    background-color: rgba(64, 71, 81, 0.7);
+    border: 1px solid #fff;
+}
+
+.icon_figma {
+    border: 1px solid rgb(162, 89, 255);
+}
+
+.icon_figma:hover {
+    background-color: rgba(162, 89, 255, 0.6);
+    border: 1px solid #fff;
+}
+
+.icon_ppt {
+    border: 1px solid rgb(208, 69, 38);
+}
+
+.icon_ppt:hover {
+    background-color: rgba(208, 69, 38, 0.8);
+    border: 1px solid #fff;
+}
+
+.show a:hover span {
+    color: white;
+}
+
+.show a img {
+    display: inline-block;
+    height: 50px;
+    margin-left: -1px;
+}
+
+.show a span {
+    display: inline-block;
+    font-family: "Pretendard Variable", serif;
+    font-size: 15px;
+    height: 100%;
+    text-align: center;
+    line-height: 48px;
+    width: 55%;
+    color: rgba(0, 0, 0, 0.7);
+}

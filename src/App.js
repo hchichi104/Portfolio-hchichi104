@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import Header from './component/Header';
+import Home from './pages/Home';
+import Aboutme from './pages/Aboutme';
+import Project from './pages/Project';
+import Design from './pages/Design';
+import Footer from './component/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  const [hover, setHover] =useState(false)
+
+  useEffect(() => {
+    AOS.init({
+      duration: 900,
+      easing: 'ease',
+      once: false,
+      delay: 100,
+    });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header hover={hover} />
+    <Home hover={hover} setHover={setHover}/>
+    <Aboutme />
+    <Project />
+    <Design />
+    <Footer />
+    </>
   );
 }
+
+/* 봐주셔서 감사합니다~ */
 
 export default App;
