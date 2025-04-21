@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio-hchichi104/static/css/main.a01ae312.css",
+    "main.js": "/portfolio-hchichi104/static/js/main.8f51a77f.js",
+    "index.html": "/portfolio-hchichi104/index.html",
+    "main.a01ae312.css.map": "/portfolio-hchichi104/static/css/main.a01ae312.css.map",
+    "main.8f51a77f.js.map": "/portfolio-hchichi104/static/js/main.8f51a77f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a01ae312.css",
+    "static/js/main.8f51a77f.js"
+  ]
+}
