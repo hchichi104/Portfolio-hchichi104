@@ -22,7 +22,7 @@
     z-index: 0;
 }
 
-.title h1 {
+.title span {
     font-family: "Sorts Mill Goudy", serif;
     font-size: 128px;
     font-weight: 500;
@@ -39,6 +39,18 @@
     bottom: 2rem;
     animation: move 1s infinite alternate;
 }
+.title .srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  
 
 @keyframes move {
     0% {

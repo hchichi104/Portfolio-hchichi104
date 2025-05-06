@@ -13,7 +13,8 @@ const Home = ({ hover, setHover }) => {
           }}></video>
       </div>
       <div className={`${styles.title} ${hover ? styles.hide : styles.show}`}>
-        <h1>W.P Chichi</h1>
+        <h1 className={styles.srOnly}>웹퍼블리셔 포트폴리오 2025 | 치치</h1>
+        <span>W.P Chichi</span>
         <p>안녕하세요! 웹퍼블리셔 치치의 포트폴리오입니다.</p>
         <p>즐겁게 봐주셨으면 좋겠습니다.</p>
         <a
