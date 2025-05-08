@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 
 function App() {
 
-  const [hover, setHover] =useState(false)
+  const [hover, setHover] = useState(false)
 
   useEffect(() => {
     AOS.init({
@@ -19,16 +19,25 @@ function App() {
       once: false,
       delay: 100,
     });
+    const handleResize = () => {
+      AOS.refresh();
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return (
     <>
-    <Header hover={hover} />
-    <Home hover={hover} setHover={setHover}/>
-    <Aboutme />
-    <Project />
-    <Design />
-    <Footer />
+      <Header hover={hover} />
+      <Home hover={hover} setHover={setHover} />
+      <Aboutme />
+      <Project />
+      <Design />
+      <Footer />
     </>
   );
 }

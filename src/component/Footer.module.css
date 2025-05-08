@@ -3,7 +3,7 @@
     justify-content: space-between;
     width: 57%;
     margin: 0 0 0 auto;
-    padding: 1rem;
+    padding: 16px;
     font-family: "Pretendard Variable", sans-serif;
     color: white;
     font-weight: 200;
@@ -11,4 +11,21 @@
 
 .info small {
     font-size: inherit;
+}
+
+@media (max-width: 768px) {
+
+    footer {
+        width: 100vw;
+        background: #54453f;
+    }
+    .info {
+        width: 100vw;
+        margin: 0;
+        color: white;
+        font-weight: 200;
+        box-sizing: border-box;
+        padding: 1rem 2rem;
+    }
+
 }

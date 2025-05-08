@@ -2,14 +2,14 @@
   position: relative;
   width: 100%;
   background: #EDF1F2;
-  margin-top: 200px;
-  padding: 70px 0 40px;
-  scroll-margin-top: 270px;
+  margin-top: 12.5rem;
+  padding: 4.375rem 0 2.5rem;
+  scroll-margin-top: 16.875rem;
 }
 
 .title {
   position: absolute;
-  font-size: 70px;
+  font-size: 4.375rem;
   color: white;
   top: -22%;
   left: 19.7%;
@@ -20,11 +20,11 @@
 }
 
 .swiperWrapper {
-  height: 500px;
-  margin-bottom: 40px;
+  height: 31.25rem;
+  margin-bottom: 2.5rem;
   display: flex;
   align-items: center;
-  margin-right: 100px;
+  margin-right: 6.25rem;
 }
 
 
@@ -37,13 +37,70 @@
 }
 
 .odd {
-  width: 420px;
+  width: 26.25rem;
 }
 
 .even {
-  width: 720px;
+  width: 45rem;
 }
 
 .image {
   height: 100%;
+}
+
+
+@media (max-width: 768px) {
+
+
+  .design {
+    position: relative;
+    width: 100vw;
+    background: #EDF1F2;
+    margin-top: 10rem;
+    padding: 1rem 0;
+    scroll-margin-top: 16.875rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .title {
+    position: absolute;
+    font-size: 4rem;
+    color: #54453F;
+    top: -22%;
+    left: 6%;
+  }
+
+  .swiperWrapper {
+    height: 26rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+
+  .slide {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 1rem 0;
+    box-sizing: border-box;
+  }
+
+  .odd {
+    width: 100%;
+  }
+
+  .even {
+    width: 100%;
+  }
+
+  .image {
+    height: 100%;
+  }
+
 }

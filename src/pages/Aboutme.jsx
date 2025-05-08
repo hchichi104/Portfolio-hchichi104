@@ -7,6 +7,7 @@ const Aboutme = () => {
       <div className={styles.container}>
         <h2 data-aos="fade-up">About Me</h2>
         <div className={styles.cont}>
+          
           <div className={styles.profile} data-aos="fade-up" data-aos-delay="400">
             <div>
               <img src="img/ico_logo.png" alt="logo" />
@@ -49,8 +50,10 @@ const Aboutme = () => {
 
           <div className={styles.skill} data-aos="fade-up" data-aos-delay="1200">
             <div>
-              <img src="img/icon/img_skill.png" alt="skill" />
-              <p>skills & Tools</p>
+              <div>
+                <img src="img/icon/img_skill.png" alt="skill" />
+                <p>skills & Tools</p>
+              </div>
               <ul>
                 <li><img src="img/icon/icon_vscode.png" alt="vscode" /></li>
                 <li><img src="img/icon/icon_html.png" alt="html" /></li>
