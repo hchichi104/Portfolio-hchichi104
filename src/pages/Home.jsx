@@ -28,7 +28,7 @@ const Home = ({ hover, setHover }) => {
         </a>
       </div>
       <div
-        class={styles.viewvideo}
+        className={styles.viewvideo}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       >

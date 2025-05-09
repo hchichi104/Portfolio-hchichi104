@@ -28,7 +28,7 @@ const Aboutme = () => {
               </div>
               <div>
                 <dt>E-mail:</dt>
-                <dd>hchichi104@gmail.com</dd>
+                <dd className={styles.webMail}>hchichi104@gmail.com</dd>
               </div>
             </dl>
           </div>
@@ -40,7 +40,7 @@ const Aboutme = () => {
             </div>
             <p>
               <span>
-                안녕하세요! 사람들의 호기심을 좇는 웹퍼블리셔 황지훈입니다. <br />
+                <span>안녕하세요! 사람들의 호기심을 좇는 웹퍼블리셔 황지훈입니다.</span> <br />
                 저는 모든 콘텐츠를 하나의 ‘이야기’라고 생각합니다.
                 이 포트폴리오도 저의 이야기가 담긴 편지로 다가갔으면 좋겠습니다.
               </span>

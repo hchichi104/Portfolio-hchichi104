@@ -136,7 +136,7 @@
     background: #EDF1F2;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 915px) {
 
     .bg_video {
         display: none;
@@ -175,6 +175,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color: white;
+        line-height: 24px;
     }
 
     .mobile figure {
@@ -215,21 +217,20 @@
         width: 100%;
         height: calc(100vh - 5rem);
         overflow: hidden;
-        background: linear-gradient(135deg, #d0b2ff29, #f1c6ff2d);
+        background: linear-gradient(135deg, #1e2a38, #3f4c6b, #606c88);
+
     }
 
-    /* 물방울 떨어지는 퍼지는 효과 */
     .paint {
         position: absolute;
         width: 40px;
         height: 40px;
         border-radius: 50%;
-        background: radial-gradient(circle, rgba(186, 135, 255, 0.8) 0%, transparent 80%);
+        background: radial-gradient(circle, rgba(255, 255, 255, 0.799) 0%, transparent 80%);
         opacity: 0.8;
         animation: paintDrop 10s infinite ease-in-out;
     }
 
-    /* 물방울 랜덤 위치 및 애니메이션 */
     .paint:nth-child(1) {
         top: 10%;
         left: 20%;
@@ -260,7 +261,6 @@
         animation-delay: 4s;
     }
 
-    /* 물방울 퍼지면서 사라지는 애니메이션 */
     @keyframes paintDrop {
         0% {
             transform: scale(0);
@@ -283,8 +283,8 @@
         width: 100%;
         height: 100%;
         background-image:
-            radial-gradient(white 2px, transparent 1px),
-            radial-gradient(white 2px, transparent 1px);
+            radial-gradient(rgb(255, 255, 255) 0.6px, transparent 1px),
+            radial-gradient(rgb(255, 255, 0) 0.6px, transparent 1px);
         background-size: 100px 100px, 150px 150px;
         background-position: 0 0, 50px 50px;
         animation: sparkleMove 10s linear infinite;

@@ -9,7 +9,7 @@ html {
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 915px) {
     html {
       font-size: 15px;
     }
