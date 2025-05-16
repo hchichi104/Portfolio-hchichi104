@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hchichi104.github.io/Portfolio-hchichi104/sitemap.xml
