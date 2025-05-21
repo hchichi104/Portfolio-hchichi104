@@ -322,8 +322,8 @@
     .web_frame {
         position: absolute;
         top: 7.2px;
-        right: 29px;
-        width: 20.6rem;
+        left: 10px;
+        width: 20.4rem;
         height: 11.5rem;
         overflow-y: hi;
         overflow-x: hidden;
@@ -356,14 +356,17 @@
     .contents h4 {
         font-size: 3rem;
         margin-top: 2rem;
-        display: inline-block;
+        display: block;
+        text-align: center;
     }
     .tag {
         display: none;
     }
     .info > p {
         margin-top: 1rem;
-        text-align: center;
+        text-align: left;
+        box-sizing: border-box;
+        padding: 0 5%;
     }
     .show {
         margin-top: 2rem;
