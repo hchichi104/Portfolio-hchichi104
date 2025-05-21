@@ -129,7 +129,7 @@
     .aboutme {
         position: relative;
         width: 100%;
-        height: calc(107vh - 2rem);
+        height: 103vh;
         margin-top: 0;
         scroll-margin-top: 5rem;
     }
@@ -262,9 +262,6 @@
         width: 5.5rem;
         overflow-wrap: break-word;
     }
-    .profile div img {
-        width: 2rem;
-    }
     .aboutme .container .cont > div:first-child > div {
         width: 130px;
     }
@@ -272,7 +269,7 @@
         margin-left: 0.5rem;
     }
     .aboutme .container .cont div div > img {
-        width: 80px;
+        width: 90px;
         height: 90px;
     }
     .skill div ul {

@@ -260,7 +260,7 @@
     .Project h3 {
         color: #54453F;
         left: 6%;
-        top: -3%;
+        top: -2.5%;
     }
     .contents {
         overflow: hidden;
@@ -278,8 +278,8 @@
 
     .mobile {
         position: absolute;
-        bottom: -22.5%;
-        right: 74%;
+        bottom: -21.5%;
+        right: 62%;
         height: 16.0625rem;
     }
     .mobile img {
@@ -316,15 +316,17 @@
         display: none;
     }
     .web img {
-        width: 23rem;
+        width: 21rem;
+        transform: translateX(0.5rem);
     }
     .web_frame {
         position: absolute;
-        top: 0.52rem;
-        right: 0.55rem;
-        width: 21.9rem;
-        height: 12.38rem;
-        overflow-y: auto;
+        top: 7.2px;
+        right: 29px;
+        width: 20.6rem;
+        height: 11.5rem;
+        overflow-y: hi;
+        overflow-x: hidden;
         padding-bottom: 0.0625rem;
         box-sizing: border-box;
     }
@@ -365,5 +367,18 @@
     }
     .show {
         margin-top: 2rem;
+    }
+    .show {
+        width: 80%;
+        margin: 40px auto 0 auto;
+        justify-content: space-evenly;
+    }
+    .show a {
+        width: 3rem;
+        border: none;
+        margin-left: 1rem;
+    }
+    .show a span {
+        display: none;
     }
 }
