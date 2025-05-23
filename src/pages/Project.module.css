@@ -322,10 +322,9 @@
     .web_frame {
         position: absolute;
         top: 7.2px;
-        left: 10px;
-        width: 20.4rem;
-        height: 11.5rem;
-        overflow-y: hi;
+        left: 7px;
+        width: 20.6rem;
+        height: 11.3rem;
         overflow-x: hidden;
         padding-bottom: 0.0625rem;
         box-sizing: border-box;

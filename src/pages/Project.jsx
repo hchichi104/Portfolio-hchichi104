@@ -135,7 +135,7 @@ const Project = () => {
             </p>
             <div className={styles.show}>
 
-            <a href="https://hchichi104.github.io/Clone-Projects---TheBanchan/" target="_blank" rel="noopener noreferrer" className={styles.icon_chrome}>
+              <a href="https://hchichi104.github.io/Clone-Projects---TheBanchan/" target="_blank" rel="noopener noreferrer" className={styles.icon_chrome}>
                 <img src="img/icon_chrome.png" alt="결과물 링크(크롬 아이콘 버튼)" />
                 <span>결과물</span>
               </a>
@@ -172,7 +172,7 @@ const Project = () => {
               부산국제영화제(BIFF) 공식 웹사이트를 클론코딩한 프로젝트입니다. HTML/CSS로 레이아웃을 구성하고, jQuery와 Swiper.js를 활용해 슬라이드 및 인터랙션을 구현했습니다. 주요 콘텐츠와 UI를 중심으로 동일한 구조와 스타일을 재현하는 데 집중했습니다.
             </p>
             <div className={styles.show}>
-            <a href="https://hchichi104.github.io/Clone-Projects---BIFF/" target="_blank" rel="noopener noreferrer" className={styles.icon_chrome}>
+              <a href="https://hchichi104.github.io/Clone-Projects---BIFF/" target="_blank" rel="noopener noreferrer" className={styles.icon_chrome}>
                 <img src="img/icon_chrome.png" alt="결과물 링크 (크롬 아이콘 버튼)" />
                 <span>결과물</span>
               </a>
@@ -208,7 +208,7 @@ const Project = () => {
               HTML과 CSS를 기반으로 구조와 스타일을 설계하고, jQuery를 활용해 인터랙티브한 요소를 구현했습니다. Swiper.js로 동적인 효과를 더해 사용자 경험을 향상시켰습니다. 다양한 UI 컴포넌트를 실제 사이트처럼 재현하며, 시멘틱 마크업과 레이아웃 구성 능력을 집중적으로 훈련한 프로젝트입니다.
             </p>
             <div className={styles.show}>
-            <a href="https://hchichi104.github.io/Clone-Projects---Rbfy/" target="_blank" rel="noopener noreferrer" className={styles.icon_chrome}>
+              <a href="https://hchichi104.github.io/Clone-Projects---Rbfy/" target="_blank" rel="noopener noreferrer" className={styles.icon_chrome}>
                 <img src="img/icon_chrome.png" alt="결과물 링크(크롬 아이콘 버튼)" />
                 <span>결과물</span>
               </a>
@@ -216,6 +216,43 @@ const Project = () => {
                 <img src="img/icon_git.png" alt="코드 링크 (깃 아이콘 버튼)" />
                 <span>코드</span>
               </a>
+            </div>
+          </div>
+        </div>
+
+        <div className={`${styles.contents} ${styles.thebanchan}`} data-aos="fade-up">
+          <div className={styles.mockup}>
+            <div className={styles.mobile}>
+              <img src="img/img_mu_phone.png" alt="mobile_mockup" />
+              <div className={styles.mobile_frame}>
+                <img src="img/img_cafe24_mobile.png" alt="img_cafe24_mobile" />
+              </div>
+            </div>
+            <div className={styles.web}>
+              <img src="img/img_mu_moniter.png" alt="web_mockup" />
+              <div className={styles.web_frame}>
+                <img src="img/img_cafe24_web.png" alt="img_cafe24_web" />
+              </div>
+            </div>
+          </div>
+          <div className={styles.info}>
+            <h4>Chichi'24 Furniture</h4>
+            <div className={styles.tag}>
+              <p>#CAFE24</p>
+            </div>
+            <div className={styles.tag}>
+              <p>#ALL_page</p>
+            </div>
+            <p>
+              많은 기업에서 Cafe24 활용 경험자를 우대하는 점에 주목해서 실무 환경을 가정한 가구 쇼핑몰 테스트 페이지를 제작했습니다. 무료 디자인을 적용하고, 제품 정보와 배너를 임의의 더미 데이터로 구성하며 운영 구조를 익혔습니다. 또한, Cafe24 관리자 페이지에서 상품 등록, 카테고리 관리, 배너 구성 등 기본 기능을 직접 실습하며 쇼핑몰 운영 흐름과 구조를 체험하고 학습했습니다.
+            </p>
+            <div className={styles.show}>
+
+              <a href="https://hchichi104.cafe24.com/" target="_blank" rel="noopener noreferrer" className={styles.icon_chrome}>
+                <img src="img/icon_chrome.png" alt="결과물 링크(크롬 아이콘 버튼)" />
+                <span>결과물</span>
+              </a>
+
             </div>
           </div>
         </div>

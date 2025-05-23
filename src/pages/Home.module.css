@@ -32,7 +32,10 @@
     font-family: "Pretendard Variable", sans-serif;
     line-height: 1.5625rem;
 }
-
+.title p:last-of-type {
+    margin-top: 20px;
+    color: gray;
+}
 .title a {
     position: absolute;
     display: inline-block;
