@@ -105,50 +105,6 @@ const Project = () => {
           </div>
         </div>
 
-        <div className={`${styles.contents} ${styles.thebanchan}`} data-aos="fade-up">
-          <div className={styles.mockup}>
-            <div className={styles.mobile}>
-              <img src="img/img_mu_phone.png" alt="mobile_mockup" />
-              <div className={styles.mobile_frame}>
-                <img src="img/img_clone_mobile_thebanchan.png" alt="img_thebanchan_mobile_main" />
-              </div>
-            </div>
-            <div className={styles.web}>
-              <img src="img/img_mu_moniter.png" alt="web_mockup" />
-              <div className={styles.web_frame}>
-                <img src="img/img_clone_web_thebanchan.png" alt="img_thebanchan_web_main" />
-              </div>
-            </div>
-          </div>
-          <div className={styles.info}>
-            <h4>TheBanchan</h4>
-            <div className={styles.tag}>
-              <p>#CloneCoding</p>
-              <p>#jQuery</p>
-              <p>#MediaQuery</p>
-            </div>
-            <div className={styles.tag}>
-              <p>#Page_Main</p>
-            </div>
-            <p>
-              더반찬은 인기 반찬 배달 서비스를 클론코딩한 프로젝트입니다. HTML, CSS, jQuery를 활용하여 웹 환경에 최적화된 사용자 인터페이스를 구현하였고, MediaQuery를 사용하여 반응형 웹 디자인을 적용했습니다. Ionicons.js를 이용해 아이콘을 추가하여 시각적 요소를 개선하였으며, 직관적이고 효율적인 사용자 경험을 제공하는 것을 목표로 하였습니다.
-            </p>
-            <div className={styles.show}>
-
-              <a href="https://hchichi104.github.io/Clone-Projects---TheBanchan/" target="_blank" rel="noopener noreferrer" className={styles.icon_chrome}>
-                <img src="img/icon_chrome.png" alt="결과물 링크(크롬 아이콘 버튼)" />
-                <span>결과물</span>
-              </a>
-
-              <a href="https://github.com/hchichi104/Clone-Projects---TheBanchan" target="_blank" rel="noopener noreferrer" className={styles.icon_git}>
-                <img src="img/icon_git.png" alt="코드 링크 (깃 아이콘 버튼)" />
-                <span>코드</span>
-              </a>
-
-            </div>
-          </div>
-        </div>
-
         <div className={`${styles.contents} ${styles.biff}`} data-aos="fade-up">
           <div className={styles.mockup}>
             <div className={styles.web}>
@@ -220,7 +176,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className={`${styles.contents} ${styles.thebanchan}`} data-aos="fade-up">
+        <div className={`${styles.contents} ${styles.cafe24}`} data-aos="fade-up">
           <div className={styles.mockup}>
             <div className={styles.mobile}>
               <img src="img/img_mu_phone.png" alt="mobile_mockup" />
